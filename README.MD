@@ -50,4 +50,4 @@ source install/setup.bash
 
 After compiling the first time you might need to run rqt with the `force-discover` flag because rqt will not know that the plugin is available.
 
-![How to use](example.webm)
+https://github.com/user-attachments/assets/7ea3b933-148b-428b-918b-5f2b9e56070a
