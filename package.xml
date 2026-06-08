@@ -1,0 +1,39 @@
+<package format="2">
+  <name>rqt_lifecycle_controller</name>
+  <version>1.7.3</version>
+  <description>rqt_lifecycle_controller provides a GUI plugin for visualizing and control lifecycle nodes states.</description>
+
+  <maintainer email="andresgrillo01@gmail.com">Andrés Grillo</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository"></url>
+
+  <author email="andresgrillo01@gmail.com">Andrés Grillo</author>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend version_gte="0.2.25">qt_gui_py_common</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosidl_parser</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_py_common</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>ament_xmllint</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>test_msgs</test_depend>
+
+  <export>
+    <architecture_independent/>
+    <build_type>ament_python</build_type>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

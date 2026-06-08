@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="LifeCycleController" type="rqt_lifecycle_controller.lifecycleController.LifeCycleController" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for visualizing and controling lifecycle nodes states.
+    </description>
+    <qtgui>
+      <group>
+        <label>Interfaz Gráfica Rodes</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to visualization.</statustip>
+      </group>
+      <label>lifecycle_controller</label>
+      <icon type="theme">utilities-system-monitor</icon>
+      <statustip>A plugin for visualizing and control lifecycle nodes states.</statustip>
+    </qtgui>
+  </class>
+</library>

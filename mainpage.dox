@@ -1,0 +1,6 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b rqt_lifecycle_controller provides a GUI plugin for visualizing and control lifecycle nodes states.
+*/
